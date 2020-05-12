@@ -97,3 +97,11 @@ def number_to_short_month_name(m)
     return "Not a valid month"
   end
 end
+
+def volume_of_cube(side)
+    return side ** 3
+end
+
+def volume_of_sphere(radius)
+  return Math::PI * 4/3 * radius ** 3;
+end
