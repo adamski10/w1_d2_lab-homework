@@ -23,3 +23,15 @@ end
 def return_10()
     return 10
 end
+
+def length_of_string(test_string)
+    return test_string.length
+end
+
+def join_string(a,b)
+  return a + b
+end
+
+def add_string_as_number(number_1, number_2)
+  return number_1.to_i + number_2.to_i
+end

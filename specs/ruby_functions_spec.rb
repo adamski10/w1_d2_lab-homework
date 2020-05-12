@@ -38,21 +38,22 @@ class FunctionsTest < MiniTest::Test
     divide_result = divide( 10, 2 )
     assert_equal( 5, divide_result )
   end
-#   def test_length_of_string()
-#     test_string = "A string of length 21"
-#     length_of_string = length_of_string( test_string )
-#     assert_equal( 21, length_of_string )
-#   end
-#   def test_join_string()
-#     string_1 = "Mary had a little lamb, "
-#     string_2 = "its fleece was white as snow"
-#     joined_string = join_string( string_1, string_2 )
-#     assert_equal( "Mary had a little lamb, its fleece was white as snow", joined_string )
-#   end
-#   def test_add_string_as_number()
-#     add_result = add_string_as_number( "1", "2" )
-#     assert_equal( 3, add_result )
-#   end
+  def test_length_of_string()
+    test_string = "A string of length 21"
+    length_of_string = length_of_string( test_string )
+    assert_equal( 21, length_of_string )
+  end
+
+  def test_join_string()
+    string_1 = "Mary had a little lamb, "
+    string_2 = "its fleece was white as snow"
+    joined_string = join_string( string_1, string_2 )
+    assert_equal( "Mary had a little lamb, its fleece was white as snow", joined_string )
+  end
+  def test_add_string_as_number()
+    add_result = add_string_as_number( "1", "2" )
+    assert_equal( 3, add_result )
+  end
 #   def test_number_to_full_name__month_1()
 #     result = number_to_full_month_name( 1 )
 #     assert_equal( "January", result )
