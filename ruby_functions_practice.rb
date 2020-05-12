@@ -1,111 +1,111 @@
 # TODO: write implementation here
 
 def return_five()
-    return 2 + 3
+     2 + 3
 end
 
 def add(first_number, second_number)
-  return first_number + second_number
+   first_number + second_number
 end
 
 def subtract(x,y)
-  return x-y
+   x-y
 end
 
 def multiply(x,y)
-  return x*y
+   x*y
 end
 
 def divide(x,y)
-  return x/y
+   x/y
 end
 
 def return_10()
-    return 10
+     10
 end
 
 def length_of_string(test_string)
-    return test_string.length
+     test_string.length
 end
 
 def join_string(a,b)
-  return a + b
+   a + b
 end
 
 def add_string_as_number(number_1, number_2)
-  return number_1.to_i + number_2.to_i
+   number_1.to_i + number_2.to_i
 end
 
 def number_to_full_month_name(number)
   case number
   when 1
-    return "January"
+     "January"
   when 2
-    return "February"
+     "February"
   when 3
-    return "March"
+     "March"
   when 4
-    return "April"
+     "April"
   when 5
-    return "May"
+     "May"
   when 6
-    return "June"
+     "June"
   when 7
-    return "July"
+     "July"
   when 8
-    return "August"
+     "August"
   when 9
-    return "September"
+     "September"
   when 10
-    return "October"
+     "October"
   when 11
-    return "November"
+     "November"
   when 12
-    return "December"
+     "December"
   else
-    return "Not a valid month"
+     "Not a valid month"
   end
 end
 
 def number_to_short_month_name(number)
   case number
   when 1
-    return "Jan"
+     "Jan"
   when 2
-    return "Feb"
+     "Feb"
   when 3
-    return "Mar"
+     "Mar"
   when 4
-    return "Apr"
+     "Apr"
   when 5
-    return "May"
+     "May"
   when 6
-    return "Jun"
+     "Jun"
   when 7
-    return "Jul"
+     "Jul"
   when 8
-    return "Aug"
+     "Aug"
   when 9
-    return "Sep"
+     "Sep"
   when 10
-    return "Oct"
+     "Oct"
   when 11
-    return "Nov"
+     "Nov"
   when 12
-    return "Dec"
+     "Dec"
   else
-    return "Not a valid month"
+     "Not a valid month"
   end
 end
 
 def volume_of_cube(side)
-    return side ** 3
+     side ** 3
 end
 
 def volume_of_sphere(radius)
-  return Math::PI * 4/3 * radius ** 3;
+   Math::PI * 4/3 * radius ** 3;
 end
 
 def fahrenheit_to_celsius(degrees)
-    return (degrees - 32) * 5/9
+     (degrees - 32) * 5/9
 end

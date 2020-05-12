@@ -91,11 +91,4 @@ class FunctionsTest < MiniTest::Test
   def test_fahrenheit_to_celsius()
     assert_equal(0, fahrenheit_to_celsius(32))
   end
-
-
-
-
-
-
-
 end
