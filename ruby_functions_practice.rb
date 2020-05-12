@@ -36,8 +36,8 @@ def add_string_as_number(number_1, number_2)
   return number_1.to_i + number_2.to_i
 end
 
-def number_to_full_month_name(m)
-  case m
+def number_to_full_month_name(number)
+  case number
   when 1
     return "January"
   when 2
@@ -67,8 +67,8 @@ def number_to_full_month_name(m)
   end
 end
 
-def number_to_short_month_name(m)
-  case m
+def number_to_short_month_name(number)
+  case number
   when 1
     return "Jan"
   when 2
